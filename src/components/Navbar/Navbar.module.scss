@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+.nav_overview {
+  background-color: azure;
+  border: 1px solid $border-color;
+}
+
+.nav_header {
+  display: flex;
+  align-items: center;
+  small {
+    padding-left: 10px;
+    font-weight: bolder;
+  }
+  padding: 0 30px;
+  padding-top: 20px;
+}
+
+.nav_menu {
+  padding: 30px 30px;
+  &_title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: background-color, color 0.3s ease;
+
+    small {
+      padding-left: 10px;
+    }
+    &:hover {
+      background-color: $hover-background-color;
+      color: $hover-text-color;
+    }
+  }
+}
