@@ -4,7 +4,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: var(--bg-color-light);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Microsoft YaHei', 微软雅黑，sans-serif;
   font-size: var(--font-size-normal);
   font-weight: var(--font-weight);
 }
@@ -32,4 +32,8 @@ ul {
 }
 a {
   text-decoration: none;
+}
+p {
+  padding: 0;
+  margin: 0;
 }

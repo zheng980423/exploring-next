@@ -6,7 +6,7 @@ const Title = ({ title }) => {
   return (
     <div className={TitleStyles.global_title}>
       <strong>{title}</strong>
-      <Button value={`see all`} />
+      <Button value={`See all`} />
     </div>
   );
 };

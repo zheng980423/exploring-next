@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GlobalItems from './GlobalItems';
 import GlobalStyles from './Global.module.scss';
 import Title from '../Title/Title';
-const Global = ({ title }) => {
+const Global = ({ title, songs }) => {
   return (
     <div className={GlobalStyles.global}>
       {/* <div className={GlobalStyles.global_title}>
@@ -11,9 +11,14 @@ const Global = ({ title }) => {
       </div> */}
       <Title title={title} />
       <div className={GlobalStyles.global_content_wrapper}>
-        <GlobalItems source="en" name="嗯" artist="李荣浩" />
-        <GlobalItems source="erduo" name="耳朵" artist="李荣浩" />
-        <GlobalItems source="maque" name="麻雀" artist="李荣浩" />
+        {songs.map(song => (
+          <GlobalItems
+            source={song.source}
+            name={song.name}
+            artist={song.artist}
+            key={song.id}
+          />
+        ))}
       </div>
     </div>
   );

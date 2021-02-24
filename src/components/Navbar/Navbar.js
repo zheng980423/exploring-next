@@ -33,54 +33,54 @@ const Navbar = ({}) => {
 
       <div className={NavbarStyles.nav_menu}>
         <div className={NavbarStyles.nav_menu_title}>
-          <small>Library</small>
+          <small>资料库</small>
         </div>
         <ul>
           <li>
             <WatchLaterIcon />
-            <small>Recent</small>
+            <small>最近</small>
           </li>
           <li>
             <FavoriteIcon />
-            <small>Favourites</small>
+            <small>喜欢</small>
           </li>
           <li>
             <FolderIcon />
-            <small>Local</small>
+            <small>本地</small>
           </li>
         </ul>
       </div>
       <div className={NavbarStyles.nav_menu}>
         <div className={NavbarStyles.nav_menu_title}>
-          <small>Playlist</small>
+          <small>播放列表</small>
         </div>
         <ul>
           <li>
             <AddBoxRoundedIcon />
-            <small>Create New</small>
+            <small>新建歌单</small>
           </li>
           <li>
             <ListIcon />
-            <small>Pop Punk</small>
+            <small>流行</small>
           </li>
           <li>
             <ListIcon />
-            <small>Rocks</small>
+            <small>摇滚</small>
           </li>
         </ul>
       </div>
       <div className={NavbarStyles.nav_menu}>
         <div className={NavbarStyles.nav_menu_title}>
-          <small>General</small>
+          <small>通用</small>
         </div>
         <ul>
           <li>
             <SettingsIcon />
-            <small>Settings</small>
+            <small>设置</small>
           </li>
           <li>
             <MeetingRoomIcon />
-            <small>Log out</small>
+            <small>登出</small>
           </li>
         </ul>
       </div>

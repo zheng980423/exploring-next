@@ -1,0 +1,67 @@
+@import '../../styles/variables';
+.li_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.general_info {
+  display: flex;
+  align-items: center;
+  .general_sq {
+    p {
+      font-size: 0.5rem;
+      color: $text-color-light;
+      margin-right: 10px;
+    }
+  }
+  &_img {
+    margin-right: 10px;
+    &_item {
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+  }
+  &_description {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    &_title {
+      strong {
+        font-size: 0.8rem;
+      }
+    }
+    &_artist {
+      p {
+        color: $text-color-light;
+        font-size: 0.5rem;
+      }
+    }
+  }
+}
+.general_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  div {
+    padding: 10px;
+  }
+  &_duration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_icon,
+  &_create {
+    color: $hover-text-color;
+    width: 25px;
+    height: 25px;
+    border: 1px solid $border-color;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  &_create {
+    color: $text-color-light;
+  }
+}

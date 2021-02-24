@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
       <div className={styles.home}>
         <div className={styles.overview_layout}>
-          <Navbar className={styles.overview_nav}></Navbar>
+          <Navbar className={styles.overview_nav} />
           <main className={styles.overview_main}>{children}</main>
         </div>
       </div>

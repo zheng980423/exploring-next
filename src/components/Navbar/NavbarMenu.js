@@ -11,33 +11,33 @@ const NavbarMenu = () => {
     <>
       <div className={NavbarStyles.nav_menu}>
         <div className={NavbarStyles.nav_menu_title}>
-          <small>Menu</small>
+          <small>菜单</small>
         </div>
         <ul>
           <Link href="/home/">
             <a>
               <li>
                 <HomeIcon />
-                <small>Home</small>
+                <small>主页</small>
               </li>
             </a>
           </Link>
 
           <li>
             <SearchIcon />
-            <small>Search</small>
+            <small>搜索</small>
           </li>
           <li>
             <ExploreIcon />
-            <small>Discover</small>
+            <small>发现</small>
           </li>
           <li>
             <AlbumIcon />
-            <small>Albums</small>
+            <small>专辑</small>
           </li>
           <li>
             <PersonIcon />
-            <small>Artists</small>
+            <small>歌手</small>
           </li>
         </ul>
       </div>

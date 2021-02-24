@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+.global_content {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid $border-color;
+  border-radius: 5px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  p {
+    margin: 0;
+  }
+  &:nth-child(1) {
+    margin-left: 0;
+  }
+  &_image_wrapper {
+    position: relative;
+    .global_content_image {
+      border-radius: 20px;
+    }
+  }
+  &_icon {
+    color: $hover-text-color;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    left: 85px;
+    bottom: 20px;
+  }
+  &_description {
+    padding: 10px;
+    strong {
+      margin: 10px 0;
+    }
+    p {
+      font-size: 0.5rem;
+      padding-top: 10px;
+      color: $text-color-light;
+    }
+  }
+}
