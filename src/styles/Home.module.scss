@@ -1,8 +1,5 @@
 @import './variables';
-.overview_layout {
-  width: 20vw;
-  color: $base-color;
-}
-.home {
-  padding: 20px;
+.home_wrapper {
+  border-radius: 20px;
+  background-color: #fff;
 }
