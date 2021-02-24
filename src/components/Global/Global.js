@@ -12,8 +12,8 @@ const Global = ({ title }) => {
       <Title title={title} />
       <div className={GlobalStyles.global_content_wrapper}>
         <GlobalItems source="en" name="嗯" artist="李荣浩" />
-        <GlobalItems source="erduo" name="嗯" artist="李荣浩" />
-        <GlobalItems source="maque" name="嗯" artist="李荣浩" />
+        <GlobalItems source="erduo" name="耳朵" artist="李荣浩" />
+        <GlobalItems source="maque" name="麻雀" artist="李荣浩" />
       </div>
     </div>
   );

@@ -1,0 +1,16 @@
+@import '../../styles/variables';
+.btn {
+  font-family: inherit;
+  padding: 5px 10px;
+  border: 1px solid $text-color-light;
+  color: $text-color-light;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: $hover-background-color;
+    color: $hover-text-color;
+    border: none;
+  }
+}

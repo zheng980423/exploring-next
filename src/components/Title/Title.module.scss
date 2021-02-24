@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+.global_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  // button {
+  //   font-family: inherit;
+  //   padding: 5px 10px;
+  //   border: none;
+  //   cursor: pointer;
+  //   &:hover {
+  //     background-color: $hover-background-color;
+  //     color: $hover-text-color;
+  //   }
+  // }
+}

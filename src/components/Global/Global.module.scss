@@ -1,6 +1,6 @@
 @import '../../styles/variables';
 .global {
-  padding: 20px 30px;
+  padding: $comps-padding;
 
   &_title {
     display: flex;

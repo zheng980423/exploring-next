@@ -1,11 +1,12 @@
 import React from 'react';
-import GlobalStyles from '../Global/Global.module.scss';
+import Button from '../Button/Button';
+import TitleStyles from './Title.module.scss';
 
 const Title = ({ title }) => {
   return (
-    <div className={GlobalStyles.global_title}>
+    <div className={TitleStyles.global_title}>
       <strong>{title}</strong>
-      <button>See all</button>
+      <Button value={`see all`} />
     </div>
   );
 };
